@@ -16,12 +16,8 @@ This project simulateted 3 most common strategies in the investment industry.
 
     ![mean reversion strategy during the bull market](assets/images/image-3.png)
 
-    The average return would be (-4.9% + 24.7%) = 19.8%, low risk;
-    while market average return would be (156% - 60%) = 96%, high risk;
-
-    > this forumlar would be used for risk analysit reference purpose, the ROI
-    computing would be different formular with
-    `(value * rate_year1) * rate_year2 / value - 1`
+    The average return would be (-4.1% + 24.7%) = 20.6%, low risk;
+    while market average return would be (- 60% + 156%) = 96%, high risk;
 
 2. Strategy B
 
@@ -32,7 +28,7 @@ This project simulateted 3 most common strategies in the investment industry.
 
     ![strategy B would have only 30.5% lose in 2022.](assets/images/image_b_2022.png)
 
-    The average return would be (170% - 30%) = 150%, Medium risk
+    The average return would be (-30.5% + 170% ) = 139.5%, Medium risk
 
 3. Strategy C
 
