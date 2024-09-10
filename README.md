@@ -1,4 +1,4 @@
-# crypto trading simulation
+# crypto-trading-simulation
 
 ## Strategies
 
