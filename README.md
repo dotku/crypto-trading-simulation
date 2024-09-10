@@ -25,10 +25,10 @@ while market got 60% lose in 2022, strategy B would have only 30.5% lose in 2022
 
 3. Strategy C
 
-![Strategy C bull market performance](image-c-1.png)
+![Strategy C bull market performance](assets/images/image-c-1.png)
 
 Strategy C can profit even in the bear market, with 4.5% increased;
 
-![Strategy C bear market performance](image-c.png)
+![Strategy C bear market performance](assets/images/image-c.png)
 
 however, during the bull market, it can earn only 13%, would be prefect for larget fund assets.
