@@ -1,34 +1,48 @@
 # crypto-trading-simulation
 
-## Strategies
+This project simulateted 3 most common strategies in the investment industry.
+
+## Strategies Comparison
 
 1. Strategy A
 
-![yahoo data with 60% lose](assets/images/image.png)
+    ![yahoo data with 60% lose](assets/images/image.png)
 
-while market lose 60%, Strategy A could 95.9% fund!
+    While market lose 60%, Strategy A could stay with 95.9% of fund!
 
-![keep 95.9% with strategy A](assets/images/image-1.png)
+    ![keep 95.9% with strategy A](assets/images/image-1.png)
 
-however, while bull market, it won't earn that much.
+    however, in the bull market, it returns only 24.7% compare with 156% market increase.
 
-![mean reversion strategy during the bull market](assets/images/image-3.png)
+    ![mean reversion strategy during the bull market](assets/images/image-3.png)
+
+    The average return would be (-4.9% + 24.7%) = 19.8%, low risk;
+    while market average return would be (156% - 60%) = 96%, high risk;
+
+    > this forumlar would be used for risk analysit reference purpose, the ROI
+    computing would be different formular with
+    `(value * rate_year1) * rate_year2 / value - 1`
 
 2. Strategy B
 
-![yahoo data with 156% increase](assets/images/image-2.png)
+    ![yahoo data with 156% increase](assets/images/image-2.png)
 
-while market got 156% increase in 2023, Strategy B could have 170% increase.
-while market got 60% lose in 2022, strategy B would have only 30.5% lose in 2022.
+    while market got 156% increase in 2023, Strategy B could have 170% increase.
+    while market got 60% lose in 2022, strategy B would have only 30.5% lose in 2022.
 
-![strategy B would have only 30.5% lose in 2022.](assets/images/image_b_2022.png)
+    ![strategy B would have only 30.5% lose in 2022.](assets/images/image_b_2022.png)
+
+    The average return would be (170% - 30%) = 150%, Medium risk
 
 3. Strategy C
 
-![Strategy C bull market performance](assets/images/image-c-1.png)
+    ![Strategy C bull market performance](assets/images/image-c-1.png)
 
-Strategy C can profit even in the bear market, with 4.5% increased;
+    Strategy C can profit even in the bear market, with 4.5% increased;
 
-![Strategy C bear market performance](assets/images/image-c.png)
+    ![Strategy C bear market performance](assets/images/image-c.png)
 
-however, during the bull market, it can earn only 13%, would be prefect for larget fund assets.
+    however, during the bull market, it can earn only 13%, would be prefect for
+    larget fund assets.
+
+    The average return would be (4.5% + 13%) = 17.5%, low risk
