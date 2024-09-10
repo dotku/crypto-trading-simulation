@@ -1,7 +1,10 @@
+import os
 import requests
+from dotenv import load_dotenv
 
-api_key = 'f11523a3-e47e-4cde-942f-04558e8ce101'
-# api_key = 'b54bcf4d-1bca-4e8e-9a24-22ff2c3d462c' # sandbox
+load_dotenv()
+
+api_key = os.getenv('API_KEY')
 
 ENDPOINT="pro-api.coinmarketcap.com" #product
 # ENDPOINT="sandbox-api.coinmarketcap.com" #sandbox-api
