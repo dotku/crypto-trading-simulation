@@ -1,4 +1,4 @@
-# Crypto Trading Simulation
+# crypto trading simulation
 
 ## Strategies
 
@@ -20,3 +20,5 @@ however, while bull market, it won't earn that much.
 
 while market got 156% increase in 2023, momentum strategy could have 170% increase.
 while market got 60% lose in 2022, moment strategy would have only 30.5% lose in 2022.
+
+![moment strategy would have only 30.5% lose in 2022.](assets/images/image_momentum_2022.png)
